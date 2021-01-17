@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    background-color: #009688;
+}
+
+#header h1{
+    color: white;
+    padding: 20px 0px 15px 10px;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+#body-divs{
+    width: 70%;
+    height: auto;
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+    margin: 2px 12% 2px 12%;
+}
+
+.first-main{
+    width: 100%;
+    display: flex;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 0.5px grey;
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.images{
+    width: 270px;
+    margin: 0px 0px 0px 0px;
+    height: inherit;
+    display: block;
+}
+
+.writings{
+    margin: 15px 15px 15px 23px;
+}
+
+.image-headings{
+    font-size: 1.6rem;
+    margin: 2px 0px 8px 0px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.image-para{
+    font-family: verdana;
+    margin: 0px 15px 0px 0px;
+}
+
+
+
+
+
+/*resolution 1010px*/
+
+
+@media all and (max-width: 1010px){
+    #body-divs{
+        width: 96%;
+        margin: 2px 15px;
+    }
+    .writings{
+        text-align: center;
+    }
+}
+
+
+
+/*resolution 750px*/
+
+
+@media all and (max-width: 750px){
+    #body-divs{
+        width: 96%;
+        margin: 2px 15px;
+    }
+    .first-main{
+        display: block;
+        padding: 0px;
+        width: 95%;
+    }
+    .images{
+        width: 95%;
+        margin-left: 2.4%;
+    }
+    .writings{
+        margin: 15px 2px 15px 2px;
+        text-align: center;
+    }
+}
+
+
+
+/*resolution 500px*/
+
+@media all and (max-width: 500px){
+    #body-divs{
+        width: 96%;
+        margin: 0px 15px;
+    }
+    .first-main{
+        display: block;
+        padding: 0px;
+        width: 95%;
+    }
+    .images{
+        width: 99%;
+        margin-left: 0%;
+        overflow: hidden;
+        margin: 0.2%;
+    }
+    .writings{
+        margin: 15px 2px 15px 2px;
+        text-align: center;
+    }
+    .image-para{
+        font-family: verdana;
+        margin: 0px;
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+
+}
